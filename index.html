@@ -1,0 +1,861 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Devsamuel | Full Stack Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <div class="logo-circle"></div>
+            Devsamuel
+        </div>
+
+        <div class="nav-links" id="navLinks">
+            <a href="#work">Work</a>
+            <a href="#skill">Skills</a>
+            <a href="#abt">About</a>
+            <a href="#contact">Contact</a>
+            <button class="hire-btn" id="#send-message">Hire Me</button>
+        </div>
+
+        <div class="nav-icons">
+            <div class="dark-toggle" id="darkToggle">
+                <!-- Moon Icon -->
+                <svg id="moonIcon" viewBox="0 0 24 24" width="22" height="22">
+                    <path fill="currentColor" d="M21 12.79A9 9 0 0111.21 3
+        7 7 0 1019 14.79
+        9 9 0 0121 12.79z" />
+                </svg>
+
+                <!-- Sun Icon -->
+                <svg id="sunIcon" viewBox="0 0 24 24" width="22" height="22" style="display:none;">
+                    <circle cx="12" cy="12" r="5" fill="currentColor" />
+                    <g stroke="currentColor" stroke-width="2">
+                        <line x1="12" y1="1" x2="12" y2="4" />
+                        <line x1="12" y1="20" x2="12" y2="23" />
+                        <line x1="4.22" y1="4.22" x2="6.34" y2="6.34" />
+                        <line x1="17.66" y1="17.66" x2="19.78" y2="19.78" />
+                        <line x1="1" y1="12" x2="4" y2="12" />
+                        <line x1="20" y1="12" x2="23" y2="12" />
+                        <line x1="4.22" y1="19.78" x2="6.34" y2="17.66" />
+                        <line x1="17.66" y1="6.34" x2="19.78" y2="4.22" />
+                    </g>
+                </svg>
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+
+        <div class="hero-left">
+            <div class="badge">● Available for Freelance</div>
+
+            <h1>
+                <span>Building Digital</span>
+                <span>Experiences</span>
+                <span>That</span>
+                <span class="highlight">Matter</span>
+            </h1>
+
+            <p>
+                Full-stack developer specializing in React & Node.js,
+                crafting seamless digital solutions that drive results
+            </p>
+
+            <div class="buttons">
+                <button class="primary-btn">View Projects →</button>
+                <button class="secondary-btn">Get in Touch</button>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <div class="gradient-card">
+                <div class="code-box">
+                    <div class="code-dots">
+                        <div class="dot red"></div>
+                        <div class="dot yellow"></div>
+                        <div class="dot green"></div>
+                    </div>
+                    <pre>
+const developer = {
+  name: 'Devsamuel',
+  skills: ['React', 'Node'],
+  passion: 'Building'
+}
+</pre>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ================= FEATURED WORK ================= -->
+
+    <section class="featured" id="work">
+
+        <div class="featured-header">
+            <h2>Featured Work</h2>
+            <a href="#" class="view-all">All Projects →</a>
+        </div>
+
+        <div class="projects">
+
+            <div class="project-card">
+                <div class="project-inner">
+
+                    <div class="project-img">
+                        <img src="Ecommerce platform similar to shopify _ Logo design contest.jpg" alt="">
+                    </div>
+
+                    <div class="project-overlay">
+                        <a href="#" class="overlay-btn">View Project</a>
+                    </div>
+
+                    <div class="project-content">
+                        <span class="tag">Full Stack</span>
+                        <h3>E-Commerce Platform</h3>
+                        <p>
+                            A full-featured online shopping platform with cart,
+                            payment integration and admin management.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="project-card">
+                <div class="project-inner">
+
+                    <div class="project-img">
+                        <img src="Bank App Design.jpg" alt="">
+                    </div>
+
+                    <div class="project-overlay">
+                        <a href="#" class="overlay-btn">View Project</a>
+                    </div>
+
+                    <div class="project-content">
+                        <span class="tag">Full Stack</span>
+                        <h3>Mobile Banking App</h3>
+                        <p>
+                            A full-featured online banking application with secure transactions,
+                            account management and user dashboard.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="project-card">
+                <div class="project-inner">
+
+                    <div class="project-img">
+                        <img src="Red and Black Modern Creative Portfolio Presentation.jpg" alt="">
+                    </div>
+
+                    <div class="project-overlay">
+                        <a href="#" class="overlay-btn">View Project</a>
+                    </div>
+
+                    <div class="project-content">
+                        <span class="tag">Full Stack</span>
+                        <h3>Portfolio Website</h3>
+                        <p>
+                            A responsive portfolio website showcasing projects and skills.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= TECHNICAL ARSENAL ================= -->
+
+    <section class="arsenal" id="skill">
+
+        <div class="arsenal-header">
+            <h2>Technical Arsenal</h2>
+            <p>Technologies I work with daily</p>
+        </div>
+
+        <div class="arsenal-grid">
+
+            <div class="skill-card react">
+                <div class="icon">⚛</div>
+                <h4>React</h4>
+                <span>Frontend</span>
+            </div>
+
+            <div class="skill-card typescript">
+                <div class="icon">⌨</div>
+                <h4>TypeScript</h4>
+                <span>Language</span>
+            </div>
+
+            <div class="skill-card node">
+                <div class="icon">🟢</div>
+                <h4>Node.js</h4>
+                <span>Backend</span>
+            </div>
+
+            <div class="skill-card postgres">
+                <div class="icon">🗄</div>
+                <h4>PostgreSQL</h4>
+                <span>Database</span>
+            </div>
+
+            <div class="skill-card aws">
+                <div class="icon">☁</div>
+                <h4>AWS</h4>
+                <span>Cloud</span>
+            </div>
+
+            <div class="skill-card docker">
+                <div class="icon">🐳</div>
+                <h4>Docker</h4>
+                <span>DevOps</span>
+            </div>
+
+            <div class="skill-card figma">
+                <div class="icon">🎨</div>
+                <h4>Figma</h4>
+                <span>Design</span>
+            </div>
+
+            <div class="skill-card git">
+                <div class="icon">🌿</div>
+                <h4>Git</h4>
+                <span>Version Control</span>
+            </div>
+
+        </div>
+
+        <!-- Stats Section -->
+        <div class="stats">
+            <div>
+                <h3>50+</h3>
+                <p>Projects Completed</p>
+            </div>
+            <div>
+                <h3>30+</h3>
+                <p>Happy Clients</p>
+            </div>
+            <div>
+                <h3>10K+</h3>
+                <p>Code Commits</p>
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= ABOUT SECTION ================= -->
+
+    <section class="about" id="abt">
+
+        <div class="about-header">
+            <span class="about-badge">About Me</span>
+            <h2>The story behind the code</h2>
+            <p>
+                A developer who believes great software is equal parts craft, empathy, and
+                relentless curiosity.
+            </p>
+        </div>
+
+        <div class="about-container">
+
+            <!-- LEFT SIDE -->
+            <div class="about-left">
+
+                <div class="profile-card">
+                    <img src="download (10).jpg" alt="Profile">
+                    <div class="experience-badge">
+                        💜 5+ yrs<br>
+                        <small>Experience</small>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- RIGHT SIDE -->
+            <div class="about-right">
+
+                <h3>
+                    Hi, I'm <span class="highlight-name">Samuel</span> —
+                    I turn ideas into <span class="highlight-text">digital experiences</span>.
+                </h3>
+
+                <p>
+                    I'm a full-stack engineer with over 5 years of experience building
+                    products that are fast, accessible, and genuinely enjoyable to use.
+                    My journey started with a curiosity about how websites worked —
+                    and quickly evolved into a lifelong obsession with solving real-world problems.
+                </p>
+
+                <p>
+                    When I'm not coding, you'll find me contributing to open-source,
+                    writing about software or diving deep into design systems.
+                </p>
+
+                <!-- Features -->
+                <div class="about-features">
+
+                    <div class="feature-box">
+                        <h4>Problem Solver</h4>
+                        <p>Turning complex challenges into simple, elegant solutions.</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <h4>Clean Code</h4>
+                        <p>Maintainable and scalable architecture that stands the test of time.</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <h4>Continuous Learner</h4>
+                        <p>Always exploring emerging tools and staying ahead of trends.</p>
+                    </div>
+
+                    <div class="feature-box">
+                        <h4>Passionate Builder</h4>
+                        <p>Focused on delivering real impact through digital products.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- ================= EXPERIENCE & EDUCATION ================= -->
+
+    <section class="timeline-section" id="experience">
+        <div class="timeline-top">
+            <div>
+                <h2 class="timeline-title">Experience & Education</h2>
+                <p class="timeline-sub">A snapshot of my journey so far</p>
+            </div>
+
+            <div class="timeline-filters" role="tablist" aria-label="Experience filters">
+                <button class="filter-btn active" data-filter="all" type="button">All</button>
+                <button class="filter-btn" data-filter="work" type="button">Work</button>
+                <button class="filter-btn" data-filter="education" type="button">Education</button>
+            </div>
+        </div>
+
+        <div class="timeline-list">
+
+            <!-- Work 1 -->
+            <article class="timeline-item" data-type="work">
+                <div class="tl-icon tl-work" aria-hidden="true">💜</div>
+
+                <div class="tl-card">
+                    <div class="tl-head">
+                        <div class="tl-main">
+                            <h3>Senior Full-Stack Engineer</h3>
+                            <p class="tl-company">WebPilot • Remote</p>
+                        </div>
+                        <div class="tl-date">2024 — Present</div>
+                    </div>
+
+                    <p class="tl-desc">
+                        Building scalable web platforms and dashboards with React, Node.js and PostgreSQL.
+                        Led UI performance improvements and shipped key features with clean architecture.
+                    </p>
+
+                    <div class="tl-tags">
+                        <span class="tl-tag">React</span>
+                        <span class="tl-tag">Node.js</span>
+                        <span class="tl-tag">PostgreSQL</span>
+                        <span class="tl-tag">AWS</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Work 2 -->
+            <article class="timeline-item" data-type="work">
+                <div class="tl-icon tl-work" aria-hidden="true">💜</div>
+
+                <div class="tl-card">
+                    <div class="tl-head">
+                        <div class="tl-main">
+                            <h3>Full-Stack Developer</h3>
+                            <p class="tl-company">Freelance • Abuja</p>
+                        </div>
+                        <div class="tl-date">2022 — 2024</div>
+                    </div>
+
+                    <p class="tl-desc">
+                        Delivered client websites, landing pages and internal tools. Built reusable components,
+                        responsive UI systems, and integrated APIs with secure authentication.
+                    </p>
+
+                    <div class="tl-tags">
+                        <span class="tl-tag">TypeScript</span>
+                        <span class="tl-tag">React</span>
+                        <span class="tl-tag">Express</span>
+                        <span class="tl-tag">MongoDB</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Work 3 -->
+            <article class="timeline-item" data-type="work">
+                <div class="tl-icon tl-work" aria-hidden="true">💜</div>
+
+                <div class="tl-card">
+                    <div class="tl-head">
+                        <div class="tl-main">
+                            <h3>Frontend Developer</h3>
+                            <p class="tl-company">Internship • On-site</p>
+                        </div>
+                        <div class="tl-date">2021 — 2022</div>
+                    </div>
+
+                    <p class="tl-desc">
+                        Built responsive UI for web apps, collaborated with designers, and improved UX consistency
+                        across pages using component-based development.
+                    </p>
+
+                    <div class="tl-tags">
+                        <span class="tl-tag">HTML</span>
+                        <span class="tl-tag">CSS</span>
+                        <span class="tl-tag">JavaScript</span>
+                        <span class="tl-tag">Bootstrap</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Education -->
+            <article class="timeline-item" data-type="education">
+                <div class="tl-icon tl-edu" aria-hidden="true">🎓</div>
+
+                <div class="tl-card">
+                    <div class="tl-head">
+                        <div class="tl-main">
+                            <h3>B.Sc. Computer Science</h3>
+                            <p class="tl-company">University • Nigeria</p>
+                        </div>
+                        <div class="tl-date">2020 — 2024</div>
+                    </div>
+
+                    <p class="tl-desc">
+                        Focused on software engineering, data structures, and building projects that connect
+                        real problems to practical solutions.
+                    </p>
+
+                    <div class="tl-tags">
+                        <span class="tl-tag">Algorithms</span>
+                        <span class="tl-tag">Data Structures</span>
+                        <span class="tl-tag">Databases</span>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+
+    <!-- ================= CTA SECTION ================= -->
+    <section class="cta" id="contact">
+        <div class="cta-inner">
+            <span class="cta-badge">Let’s Collaborate</span>
+
+            <h2>Have a project in mind?</h2>
+            <p>
+                I’m always open to discussing new projects, creative ideas, or opportunities
+                to be part of your vision.
+            </p>
+
+            <div class="cta-actions">
+                <a href="#" class="cta-btn cta-primary">Start a Project ✨</a>
+                <a href="#" class="cta-btn cta-secondary">Schedule a Call</a>
+            </div>
+
+            <div class="cta-social">
+
+                <!-- GitHub -->
+                <a href="https://github.com/Devsamuel-Dev" target="_blank" class="social-dot">
+                    <svg viewBox="0 0 24 24" width="18">
+                        <path fill="currentColor" d="M12 0C5.37 0 0 5.37 0 12
+      c0 5.3 3.438 9.8 8.205 11.385
+      .6.113.82-.258.82-.577
+      0-.285-.01-1.04-.015-2.04
+      -3.338.724-4.042-1.61-4.042-1.61
+      -.546-1.385-1.333-1.754-1.333-1.754
+      -1.089-.744.083-.729.083-.729
+      1.205.084 1.84 1.237 1.84 1.237
+      1.07 1.834 2.807 1.304 3.492.997
+      .108-.776.418-1.305.762-1.605
+      -2.665-.3-5.466-1.333-5.466-5.93
+      0-1.31.465-2.38 1.235-3.22
+      -.124-.303-.535-1.52.117-3.176
+      0 0 1.008-.322 3.3 1.23
+      .957-.266 1.983-.399 3.003-.404
+      1.02.005 2.047.138 3.006.404
+      2.29-1.552 3.297-1.23 3.297-1.23
+      .653 1.656.242 2.873.118 3.176
+      .77.84 1.233 1.91 1.233 3.22
+      0 4.61-2.805 5.625-5.475 5.92
+      .43.372.823 1.102.823 2.222
+      0 1.606-.014 2.898-.014 3.293
+      0 .321.216.694.825.576
+      C20.565 21.795 24 17.296 24 12
+      24 5.37 18.63 0 12 0z" />
+                    </svg>
+                </a>
+
+                <!-- WhatsApp -->
+                <a href="https://wa.me/2349040094439" target="_blank" class="social-dot">
+                    <svg viewBox="0 0 24 24" width="18">
+                        <path fill="currentColor" d="M12.04 2C6.58 2 2.16 6.42
+      2.16 11.88c0 1.94.51 3.77
+      1.48 5.36L2 22l4.9-1.62
+      a9.8 9.8 0 0 0 5.14 1.45
+      c5.46 0 9.88-4.42
+      9.88-9.88C21.92 6.42
+      17.5 2 12.04 2zm0
+      17.9c-1.64 0-3.24-.44-4.64-1.26
+      l-.33-.2-2.9.96.97-2.82
+      -.21-.34a7.85 7.85 0 0 1-1.2-4.15
+      c0-4.36 3.55-7.9 7.9-7.9
+      s7.9 3.54 7.9 7.9
+      -3.54 7.81-7.89 7.81z" />
+                    </svg>
+                </a>
+
+                <!-- Instagram -->
+                <a href="https://instagram.com/yourusername" target="_blank" class="social-dot">
+                    <svg viewBox="0 0 24 24" width="18">
+                        <path fill="currentColor" d="M7.75 2h8.5A5.75 5.75 0 0 1
+      22 7.75v8.5A5.75 5.75 0 0 1
+      16.25 22h-8.5A5.75 5.75 0 0 1
+      2 16.25v-8.5A5.75 5.75 0 0 1
+      7.75 2zm4.25 5a5 5 0 1 0
+      0 10 5 5 0 0 0 0-10zm0
+      8.2a3.2 3.2 0 1 1 0-6.4
+      3.2 3.2 0 0 1 0 6.4zm4.8-8.6
+      a1.2 1.2 0 1 0 0-2.4
+      1.2 1.2 0 0 0 0 2.4z" />
+                    </svg>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-dot">
+                    <svg viewBox="0 0 24 24" width="18">
+                        <path fill="currentColor" d="M20.45 20.45h-3.56v-5.57
+      c0-1.33-.02-3.04-1.85-3.04
+      -1.86 0-2.14 1.45-2.14 2.95
+      v5.66H9.34V9h3.42v1.56h.05
+      c.48-.9 1.63-1.85 3.35-1.85
+      3.58 0 4.24 2.36 4.24 5.43
+      v6.31zM5.34 7.43
+      a2.06 2.06 0 1 1 0-4.12
+      2.06 2.06 0 0 1 0 4.12zM7.12
+      20.45H3.56V9h3.56v11.45z" />
+                    </svg>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= CONTACT / SUBMISSION ================= -->
+    <section class="contact-section" id="send-message">
+        <div class="contact-header">
+            <span class="contact-badge">Get in Touch</span>
+            <h2>Send Me a Message</h2>
+            <p>Have a question or want to work together? Fill out the form and I'll get back to you within 24 hours.</p>
+        </div>
+
+        <div class="contact-grid">
+
+            <!-- LEFT INFO -->
+            <aside class="contact-info">
+                <div class="info-card">
+                    <div class="info-icon">✉</div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>Devsamuel980@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">📍</div>
+                    <div>
+                        <h4>Location</h4>
+                        <p>Abuja, Nigeria • Remote</p>
+                    </div>
+                </div>
+
+                <div class="info-card">
+                    <div class="info-icon">⏱</div>
+                    <div>
+                        <h4>Response Time</h4>
+                        <p>Within 24 hours</p>
+                    </div>
+                </div>
+
+                <div class="available-card">
+                    <div class="dot-online"></div>
+                    <div>
+                        <h4>Currently Available</h4>
+                        <p>Open for freelance projects, full-time roles and collaborations.</p>
+                    </div>
+                </div>
+
+                <div class="contact-mini-social">
+                    <a href="https://github.com/Devsamuel-Dev" target="_blank" class="mini-social" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" width="18">
+                            <path fill="currentColor"
+                                d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61-.546-1.385-1.333-1.754-1.333-1.754-1.089-.744.083-.729.083-.729 1.205.084 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.997.108-.776.418-1.305.762-1.605-2.665-.3-5.466-1.333-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.124-.303-.535-1.52.117-3.176 0 0 1.008-.322 3.3 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.29-1.552 3.297-1.23 3.297-1.23.653 1.656.242 2.873.118 3.176.77.84 1.233 1.91 1.233 3.22 0 4.61-2.805 5.625-5.475 5.92.43.372.823 1.102.823 2.222 0 1.606-.014 2.898-.014 3.293 0 .321.216.694.825.576C20.565 21.795 24 17.296 24 12 24 5.37 18.63 0 12 0z" />
+                        </svg>
+                    </a>
+
+                    <a href="https://wa.me/2349040094439" target="_blank" class="mini-social" aria-label="WhatsApp">
+                        <svg viewBox="0 0 24 24" width="18">
+                            <path fill="currentColor"
+                                d="M12.04 2C6.58 2 2.16 6.42 2.16 11.88c0 1.94.51 3.77 1.48 5.36L2 22l4.9-1.62a9.8 9.8 0 0 0 5.14 1.45c5.46 0 9.88-4.42 9.88-9.88C21.92 6.42 17.5 2 12.04 2zm0 17.9c-1.64 0-3.24-.44-4.64-1.26l-.33-.2-2.9.96.97-2.82-.21-.34a7.85 7.85 0 0 1-1.2-4.15c0-4.36 3.55-7.9 7.9-7.9s7.9 3.54 7.9 7.9-3.54 7.81-7.89 7.81z" />
+                        </svg>
+                    </a>
+
+                    <a href="https://instagram.com/yourusername" target="_blank" class="mini-social"
+                        aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="18">
+                            <path fill="currentColor"
+                                d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm4.25 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm4.8-8.6a1.2 1.2 0 1 0 0-2.4 1.2 1.2 0 0 0 0 2.4z" />
+                        </svg>
+                    </a>
+
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" class="mini-social"
+                        aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" width="18">
+                            <path fill="currentColor"
+                                d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.95v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.63-1.85 3.35-1.85 3.58 0 4.24 2.36 4.24 5.43v6.31zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z" />
+                        </svg>
+                    </a>
+                </div>
+            </aside>
+
+            <!-- RIGHT FORM -->
+            <div class="contact-form-wrap">
+                <!-- Formspree: replace YOUR_FORM_ID -->
+                <form class="contact-form" id="contactForm" action="https://formspree.io/f/xnjbeblg" method="POST">
+                    <div class="form-row">
+                        <div class="field">
+                            <label for="fullName">Full Name</label>
+                            <input id="fullName" name="name" type="text" placeholder="John Doe" required>
+                        </div>
+
+                        <div class="field">
+                            <label for="emailAddress">Email Address</label>
+                            <input id="emailAddress" name="email" type="email" placeholder="john@email.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="field">
+                            <label for="subject">Subject</label>
+                            <input id="subject" name="subject" type="text" placeholder="Project inquiry..." required>
+                        </div>
+
+                        <div class="field">
+                            <label for="budget">Budget Range</label>
+                            <select id="budget" name="budget" required>
+                                <option value="" disabled selected>Select an option</option>
+                                <option>₦50k - ₦150k</option>
+                                <option>₦150k - ₦300k</option>
+                                <option>₦300k - ₦600k</option>
+                                <option>₦600k+</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6"
+                            placeholder="Tell me about your project, goals, and timeline..." required></textarea>
+                    </div>
+
+                    <!-- Extra metadata -->
+                    <input type="hidden" name="_subject" value="New Portfolio Message">
+                    <input type="text" name="_gotcha" style="display:none"> <!-- spam trap -->
+
+                    <button class="form-submit" type="submit">
+                        <span id="sendText">Send Message</span> <span aria-hidden="true">💜</span>
+                    </button>
+
+                    <p class="form-status" id="formStatus" aria-live="polite"></p>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="site-footer">
+
+        <div class="footer-container">
+
+            <!-- Left -->
+            <div class="footer-brand">
+                <div class="footer-logo">
+                    <span class="logo-dot"></span>
+                    <h3>Devsamuel</h3>
+                </div>
+
+                <p>
+                    Building digital experiences with precision and passion.
+                    Let's create something remarkable together.
+                </p>
+            </div>
+
+
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Skills</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+
+            <!-- Newsletter -->
+            <div class="footer-newsletter">
+                <h4>Stay Updated</h4>
+
+                <div class="newsletter-box">
+                    <input type="email" placeholder="Enter your email">
+                    <button>Subscribe</button>
+                </div>
+
+                <div class="footer-social">
+
+                    <a href="https://github.com/Devsamuel-Dev" target="_blank" class="footer-icon">
+                        <svg viewBox="0 0 24 24" width="18">
+                            <path fill="currentColor" d="M12 0C5.37 0 0 5.37 0 12
+            c0 5.3 3.438 9.8 8.205 11.385
+            .6.113.82-.258.82-.577
+            0-.285-.01-1.04-.015-2.04
+            -3.338.724-4.042-1.61-4.042-1.61
+            -.546-1.385-1.333-1.754-1.333-1.754
+            -1.089-.744.083-.729.083-.729
+            1.205.084 1.84 1.237 1.84 1.237
+            1.07 1.834 2.807 1.304 3.492.997
+            .108-.776.418-1.305.762-1.605
+            -2.665-.3-5.466-1.333-5.466-5.93
+            0-1.31.465-2.38 1.235-3.22
+            -.124-.303-.535-1.52.117-3.176
+            0 0 1.008-.322 3.3 1.23
+            .957-.266 1.983-.399 3.003-.404
+            1.02.005 2.047.138 3.006.404
+            2.29-1.552 3.297-1.23 3.297-1.23
+            .653 1.656.242 2.873.118 3.176
+            .77.84 1.233 1.91 1.233 3.22
+            0 4.61-2.805 5.625-5.475 5.92
+            .43.372.823 1.102.823 2.222
+            0 1.606-.014 2.898-.014 3.293
+            0 .321.216.694.825.576
+            C20.565 21.795 24 17.296 24 12
+            24 5.37 18.63 0 12 0z" />
+                        </svg>
+                    </a>
+
+                    <!-- WhatsApp -->
+                    <a href="https://wa.me/2349040094439" target="_blank" class="footer-icon" aria-label="WhatsApp">
+                        <svg viewBox="0 0 24 24" width="18">
+                            <path fill="currentColor" d="M12.04 2C6.58 2 2.16 6.42 2.16 11.88c0 1.94.51 3.77
+    1.48 5.36L2 22l4.9-1.62a9.8 9.8 0 0 0 5.14 1.45
+    c5.46 0 9.88-4.42 9.88-9.88C21.92 6.42
+    17.5 2 12.04 2zm0 17.9c-1.64 0-3.24-.44-4.64-1.26
+    l-.33-.2-2.9.96.97-2.82-.21-.34
+    a7.85 7.85 0 0 1-1.2-4.15c0-4.36 3.55-7.9
+    7.9-7.9s7.9 3.54 7.9 7.9-3.54 7.81-7.89 7.81z" />
+                        </svg>
+                    </a>
+
+
+                    <!-- Instagram -->
+                    <a href="https://instagram.com/yourusername" target="_blank" class="footer-icon"
+                        aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="18">
+                            <path fill="currentColor" d="M7.75 2h8.5A5.75 5.75 0 0 1
+    22 7.75v8.5A5.75 5.75 0 0 1
+    16.25 22h-8.5A5.75 5.75 0 0 1
+    2 16.25v-8.5A5.75 5.75 0 0 1
+    7.75 2zm4.25 5a5 5 0 1 0
+    0 10 5 5 0 0 0 0-10zm0
+    8.2a3.2 3.2 0 1 1 0-6.4
+    3.2 3.2 0 0 1 0 6.4zm4.8-8.6
+    a1.2 1.2 0 1 0 0-2.4
+    1.2 1.2 0 0 0 0 2.4z" />
+                        </svg>
+                    </a>
+
+
+                    <!-- LinkedIn -->
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" class="footer-icon"
+                        aria-label="LinkedIn">
+                        <svg viewBox="0 0 24 24" width="18">
+                            <path fill="currentColor" d="M20.45 20.45h-3.56v-5.57
+    c0-1.33-.02-3.04-1.85-3.04
+    -1.86 0-2.14 1.45-2.14 2.95
+    v5.66H9.34V9h3.42v1.56h.05
+    c.48-.9 1.63-1.85 3.35-1.85
+    3.58 0 4.24 2.36 4.24 5.43
+    v6.31zM5.34 7.43
+    a2.06 2.06 0 1 1 0-4.12
+    2.06 2.06 0 0 1 0 4.12zM7.12
+    20.45H3.56V9h3.56v11.45z" />
+                        </svg>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+            <p>
+                Built with passion by <span>Devsamuel</span> • Powered by HTML • TypeScript
+            </p>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
