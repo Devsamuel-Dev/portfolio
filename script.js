@@ -105,3 +105,33 @@ if (contactForm) {
     }
   });
 }
+
+
+// MOBILE MENU
+const hamburger = document.getElementById("hamburger");
+const mobileMenu = document.getElementById("mobileMenu");
+const menuOverlay = document.getElementById("menuOverlay");
+
+function openMenu(){
+  mobileMenu.classList.add("active");
+  menuOverlay.classList.add("active");
+  hamburger.setAttribute("aria-expanded", "true");
+}
+
+function closeMenu(){
+  mobileMenu.classList.remove("active");
+  menuOverlay.classList.remove("active");
+  hamburger.setAttribute("aria-expanded", "false");
+}
+
+hamburger.addEventListener("click", () => {
+  if(mobileMenu.classList.contains("active")) closeMenu();
+  else openMenu();
+});
+
+menuOverlay.addEventListener("click", closeMenu);
+
+// Close menu when a link is clicked
+document.querySelectorAll(".mobile-menu a").forEach(link => {
+  link.addEventListener("click", closeMenu);
+});

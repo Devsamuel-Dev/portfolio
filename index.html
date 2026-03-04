@@ -19,24 +19,26 @@
             Devsamuel
         </div>
 
-        <div class="nav-links" id="navLinks">
+        <!-- Desktop links -->
+        <div class="nav-links desktop-nav">
             <a href="#work">Work</a>
             <a href="#skill">Skills</a>
             <a href="#abt">About</a>
             <a href="#contact">Contact</a>
-            <button class="hire-btn" id="#send-message">Hire Me</button>
+
+            <!-- Make Hire Me a link so it can scroll -->
+            <a href="#send-message" class="hire-btn">Hire Me</a>
         </div>
 
+        <!-- Right icons -->
         <div class="nav-icons">
             <div class="dark-toggle" id="darkToggle">
-                <!-- Moon Icon -->
                 <svg id="moonIcon" viewBox="0 0 24 24" width="22" height="22">
                     <path fill="currentColor" d="M21 12.79A9 9 0 0111.21 3
-        7 7 0 1019 14.79
-        9 9 0 0121 12.79z" />
+          7 7 0 1019 14.79
+          9 9 0 0121 12.79z" />
                 </svg>
 
-                <!-- Sun Icon -->
                 <svg id="sunIcon" viewBox="0 0 24 24" width="22" height="22" style="display:none;">
                     <circle cx="12" cy="12" r="5" fill="currentColor" />
                     <g stroke="currentColor" stroke-width="2">
@@ -51,13 +53,26 @@
                     </g>
                 </svg>
             </div>
-            <div class="hamburger" id="hamburger">
+
+            <div class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
         </div>
     </nav>
+
+    <!-- Mobile menu (all links inside) -->
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#work" class="m-link">Work</a>
+        <a href="#skill" class="m-link">Skills</a>
+        <a href="#abt" class="m-link">About</a>
+        <a href="#contact" class="m-link">Contact</a>
+        <a href="#send-message" class="m-hire">Hire Me</a>
+    </div>
+
+    <!-- Dark overlay -->
+    <div class="menu-overlay" id="menuOverlay"></div>
 
     <section class="hero">
 
